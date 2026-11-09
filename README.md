@@ -1,116 +1,103 @@
-Jimmiescool2VR Antivirus
+# Jimmiescool2VR Antivirus
 
-An independent, open-source Android security project focused on making device-file checks easier to understand.
+> An independent, open-source Android security project focused on making device-file checks easier to understand.
 
-«Project status: In Development
+**Project status: In development.** Features described below are project goals and are not available until implemented and tested.
 
-Features described below represent development goals and should not be considered available until implemented and tested in a published release.»
+## Overview
 
-Overview
+Jimmiescool2VR Antivirus is being developed as a native Android application. Its goal is to provide an easy-to-use interface for scanning accessible files, reviewing scan results, and managing optional account preferences.
 
-Jimmiescool2VR Antivirus is being developed as a native Android application. Its goal is to provide an easy-to-use interface for scanning accessible files, reviewing scan results, and managing optional account-based preferences.
+This is an independent project. It is not affiliated with Google, Android, Samsung, Microsoft, or any other company.
 
-This is an independent project and is not affiliated with, endorsed by, or sponsored by Google, Android, Samsung, Microsoft, or any other company.
+## Features and Project Goals
 
-Features and Project Goals
+- **File Scanning:** Scan files Android makes accessible.
+- **Local Processing:** Process scanned files directly on the device.
+- **Guest Access:** Basic scanning without an account.
+- **Optional Accounts:** Planned Google, Apple, and email sign-in.
+- **Cloud Sync:** Optional synchronization with user permission.
+- **Privacy First:** Scanned file contents are not uploaded.
+- **Languages:** English and Romanian.
+- **No Paywalls:** No subscriptions or paid upgrades planned.
 
-- File Scanning: Scan files that Android makes accessible to the application.
-- Local Processing: Process scanned files directly on the device.
-- Guest Access: Allow users to perform basic scans without creating an account.
-- Account System: Optional Google, Apple, and email sign-in.
-- Cloud Sync: Optional synchronization of account preferences and scan history.
-- Privacy First: Never upload scanned file contents to cloud storage.
-- Multiple Languages: English and Romanian support.
-- No Paywalls: No subscriptions or paid upgrades.
+## Privacy and Security
 
-Privacy and Security
+Privacy is a core project goal.
 
-Privacy is one of the project's main priorities.
-
-- File scanning is designed to happen locally on the Android device.
-- Scanned files and their contents are not intended to be uploaded.
-- Supabase is planned for authentication and optional cloud account features.
+- Scanning is designed to happen locally.
+- Scanned file contents are not intended to be uploaded.
+- Supabase is planned for authentication and optional account features.
 - Cloud synchronization should require user permission.
-- The application should only request permissions necessary for its features.
+- Only necessary permissions should be requested.
 
-Always review the application's Privacy Policy and permissions before using a release.
+## Android Scanning Limitations
 
-Android Scanning Limitations
+Android restricts what ordinary applications can access.
 
-Android has security restrictions that limit what applications can access.
-
-Even with broad shared-storage permissions, ordinary applications cannot freely inspect every protected system location or another application's private internal files.
-
-Scan coverage depends on Android version, granted permissions, and accessible storage locations.
+Even with broad shared-storage permissions, an app cannot freely inspect every protected system location or another app's private internal files.
 
 A clean scan does not guarantee that a device is completely free of malware.
 
-Accounts and Cloud Services
+## Accounts and Cloud Services
 
-Guest users will be able to access basic scanning features.
+Guest use is intended to remain available for basic scanning.
 
-Registered accounts are intended to provide additional convenience features, including:
+Planned account features:
 
 - Saved scan history
 - Account preferences
 - Optional cross-device synchronization
 
-Supabase is the planned backend service.
+**Backend:** Supabase.
 
 No paid subscription or paywall is planned.
 
-Technology
+## Technology
 
-- Platform: Android
-- Application type: Native Android application
-- Backend: Supabase (planned)
-- Authentication: Google, Apple, and email (planned)
-- License: Apache License 2.0
+- **Platform:** Android
+- **Application:** Native Android
+- **Backend:** Supabase (planned)
+- **Authentication:** Google, Apple, and email (planned)
+- **License:** Apache License 2.0
 
-Installation
+## Installation
 
-Installation instructions and official APK releases will be published when development is ready.
+Official APK releases and installation instructions will be published when development is ready.
 
-Check the repository's Releases section for official builds:
+[View Releases](https://github.com/jimmiescool2yt/Jimmiescool2VR-Antivirus/releases)
 
-https://github.com/jimmiescool2yt/Jimmiescool2VR-Antivirus/releases
-
-Contributing
+## Contributing
 
 Contributions, suggestions, and bug reports are welcome.
 
-When reporting a bug, please include:
+When reporting bugs, include:
 
 - Android device model
 - Android version
 - Application version
-- Steps to reproduce the issue
+- Steps to reproduce
 - Relevant error messages
 
-Never include passwords, authentication tokens, private keys, or other sensitive information in public issues.
+Never post passwords, authentication tokens, or private keys.
 
-Security
+## Security
 
 Security is an ongoing development priority.
 
-If you discover a potential vulnerability, please avoid publishing sensitive exploit details publicly. A private security-reporting process will be documented when one is established.
+Please avoid publicly posting sensitive vulnerability details. A private security-reporting process will be documented when established.
 
-Contact
+## Contact
 
-Project: Jimmiescool2VR Antivirus
+- **Project:** Jimmiescool2VR Antivirus
+- **Developer:** Jimmiescool2VR
+- **Email:** Jimmiescool2yt@gmail.com
+- **GitHub:** https://github.com/jimmiescool2yt/Jimmiescool2VR-Antivirus
 
-Developer: Jimmiescool2VR
+## License
 
-Email: Jimmiescool2yt@gmail.com
-
-GitHub: https://github.com/jimmiescool2yt/Jimmiescool2VR-Antivirus
-
-License
-
-This project is licensed under the Apache License 2.0.
-
-See the "LICENSE" (LICENSE) file for details.
+Licensed under the [Apache License 2.0](LICENSE).
 
 ---
 
-Jimmiescool2VR Antivirus — Independent. Open Source. Privacy Focused.
+**Jimmiescool2VR Antivirus — Independent. Open Source. Privacy Focused.**
