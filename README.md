@@ -1,4 +1,6 @@
-# Jimmiescool2VR Antivirus
+# Jimmiescool2VR Antivirus<p align="center">
+  <img src="jimmiescool2vr-antivirus-logo.png" width="200" alt="Jimmiescool2VR Antivirus Logo">
+</p>
 
 > An independent, open-source Android security project focused on making device-file checks easier to understand.
 
