@@ -6,7 +6,21 @@
 
 **Project status: In development.** Features described below are project goals and are not available until implemented and tested.
 
-## Overview
+## Overview## App Preview
+
+These images are design mockups showing the planned application interface.
+
+### Home Screen
+![Home Screen](jimmiescool2vr-home-mockup.png)
+
+### Scanning Screen
+![Scanning Screen](jimmiescool2vr-scan-mockup.png)
+
+### Scan Results
+![Scan Results](jimmiescool2vr-results-mockup.png)
+
+### Settings
+![Settings](jimmiescool2vr-settings-mockup.png)
 
 Jimmiescool2VR Antivirus is being developed as a native Android application. Its goal is to provide an easy-to-use interface for scanning accessible files, reviewing scan results, and managing optional account preferences.
 
