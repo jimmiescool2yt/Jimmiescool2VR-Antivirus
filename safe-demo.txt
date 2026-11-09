@@ -1,0 +1,4 @@
+J2 Antivirus harmless safe-file demonstration
+This is an ordinary plain-text file for testing local file access.
+It contains no detection signature, executable code, or malicious payload.
+A no-match result does not certify this file as safe.

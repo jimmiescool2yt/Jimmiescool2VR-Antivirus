@@ -1,0 +1,4 @@
+J2 Antivirus harmless demonstration file
+Simulation marker: J2-DEMO-SIGNATURE: THREAT-SIMULATION-ONLY-v1
+This synthetic marker is for J2 Demo Mode testing only.
+It is not malware and contains no executable code or payload.
